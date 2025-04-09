@@ -1,0 +1,8 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+      "typeRoots": ["./src/types"],
+      "skipLibCheck": true,
+      "types": ["react-native-document-picker"],
+  }
+}
